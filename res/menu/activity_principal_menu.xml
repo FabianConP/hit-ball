@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/subMenuAudio" android:title="@string/text_mprin_menu_sound" android:icon="@drawable/sound" android:onClick="changeIcon" />
+    <item android:id="@+id/subMenuVibrate" android:title="@string/text_mprin_menu_vibrate"></item>
+    <item android:id="@+id/menu_settings" android:title="@string/menu_settings" android:orderInCategory="100" android:showAsAction="never" />
+</menu>

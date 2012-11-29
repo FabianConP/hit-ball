@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llBody"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llTittle"
+        android:layout_width="match_parent"
+        android:layout_height="25sp" >
+
+        <TextView
+            android:id="@+id/txtTest1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="15sp"
+            android:text="@string/text_game_topbar_time"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/txtTest2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingRight="15sp"
+            android:text="@string/text_game_topbar_score"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:padding="5sp" >
+
+        <ImageView
+            android:id="@+id/imgHole0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="score"
+            android:padding="10sp"
+            android:src="@drawable/nosrcball" />
+
+        <ImageView
+            android:id="@+id/imgHole1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="score"
+            android:padding="10sp"
+            android:src="@drawable/nosrcball" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:padding="5sp" >
+
+        <ImageView
+            android:id="@+id/imgHole2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="score"
+            android:padding="10sp"
+            android:src="@drawable/nosrcball" />
+
+        <ImageView
+            android:id="@+id/imgHole3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="score"
+            android:padding="10sp"
+            android:src="@drawable/nosrcball" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:padding="5sp" >
+
+        <ImageView
+            android:id="@+id/imgHole4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="score"
+            android:padding="10sp"
+            android:src="@drawable/nosrcball" />
+
+        <ImageView
+            android:id="@+id/imgHole5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="score"
+            android:padding="10sp"
+            android:src="@drawable/nosrcball" />
+    </LinearLayout>
+
+</LinearLayout>

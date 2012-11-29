@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="4" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txtSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/togBtSound"
+            android:layout_alignParentLeft="false"
+            android:layout_centerVertical="true"
+            android:minEms="5"
+            android:padding="5dp"
+            android:text="@string/text_mprin_menu_sound" />
+
+        <ToggleButton
+            android:id="@+id/togBtSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="false"
+            android:layout_gravity="right"
+            android:layout_toRightOf="@+id/txtSound" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txtVibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/togBtVibrate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left"
+            android:minEms="5"
+            android:padding="5dp"
+            android:text="@string/text_mprin_menu_vibrate" />
+
+        <ToggleButton
+            android:id="@+id/togBtVibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="false"
+            android:layout_gravity="right"
+            android:layout_toRightOf="@+id/txtVibrate" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txtDifficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/spDifficulty"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:minEms="5"
+            android:padding="5dp"
+            android:text="@string/text_mprin_menu_difficulty" />
+
+        <Spinner
+            android:id="@+id/spDifficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="false"
+            android:layout_gravity="right"
+            android:layout_toRightOf="@+id/txtDifficulty"
+            android:entries="@array/difficulties"
+            android:minWidth="50dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:onClick="save"
+        android:text="@string/text_mprin_menu_save" />
+
+</LinearLayout>

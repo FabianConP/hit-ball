@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">Test Hit Ball</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_principal_menu">Hit Ball</string>
+    <string name="text_mprin_txtHeader">Hit Ball</string>
+    <string name="text_mprin_btPlay">Jugar</string>
+    <string name="text_mprin_btOptions">Opciones</string>
+    <string name="text_mprin_btRecords">Records</string>
+    <string name="text_mprin_btExit">Salir</string>
+    <string name="text_mprin_menu_sound">Sonido</string>
+    <string name="text_mprin_menu_nosound">Sin sonido</string>
+    <string name="text_mprin_menu_vibrate">Vibrar</string>
+    <string name="text_mprin_menu_novibrate">No vibrar</string>
+    <string name="text_mprin_menu_credits">Créditos</string>
+    <string name="text_mprin_menu_credits_text">Programa hecho por Fabian Conejo de la Universidad Nacional.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_game">Hit Ball</string>
+    <string name="text_game_topbar_time">Tiempo</string>
+    <string name="text_game_topbar_score">Puntuación</string>
+    <string name="title_activity_options_prin_menu">Opciones</string>
+    <string name="text_mprin_menu_difficulty">Dificultad</string>
+    <string name="text_mprin_menu_save">Guardar</string>
+    <string name="title_activity_score">Score</string>
+    <string name="title_activity_game_bet">Juego</string>
+    <string name="textDifficultyEasy">Fácil</string>
+    <string name="textDifficultyMiddle">Medio</string>
+    <string name="textDifficultyHard">Difícil</string>
+    <string name="text_scores_records">Records</string>
+    <string name="text_scores_dialog_tittle">Información</string>
+    <string name="text_scores_dialog_message">Su puntuación fue</string>
+    <string name="text_scores_dialog_bestScore">Ha logrado la mejor puntuación en </string>
+    <string name="text_scores_dialog_save">Guardar</string>
+    <string name="text_scores_dialog_inputName">Ingrese su nombre</string>
+    <string name="text_scores_playAgain">Volver a jugar</string>
+    <string name="text_scores_restartRecords">Reiniciar records</string>
+    <string name="text_scores_goHome">Menú principal</string>
+    <string name="title_activity_about">About</string>
+
+</resources>
